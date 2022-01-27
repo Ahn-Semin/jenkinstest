@@ -56,6 +56,7 @@ class SerialData(object):
 
 if __name__ == '__main__':
     s = SerialData('com10')
+    time.sleep(1)
     for i in range(500):
         time.sleep(.015)
         print s.next()
