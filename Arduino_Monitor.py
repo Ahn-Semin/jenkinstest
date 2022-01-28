@@ -9,7 +9,7 @@ import serial
 
 last_received = ''
 
-b = 6
+b = 7
 def receiving(serial_port):
     global last_received
     buffer = ''
